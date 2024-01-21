@@ -31,7 +31,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>", { desc = "go to prev tab" })
 -- Maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>", { desc = "maximzie current split" })
 
--- telescope { 
+-- telescope {
 keymap.set("n", "<leader>sf", "<cmd>Telescope find_files<cr>", { desc = "search files" })
 keymap.set("n", "<leader>sg", "<cmd>Telescope live_grep<cr>", { desc = "search with grep" })
 keymap.set("n", "<leader>sc", "<cmd>Telescope grep_string<cr>", { desc = "search grep string" })
